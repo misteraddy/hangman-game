@@ -1,0 +1,92 @@
+.maskedText{
+    display: block;
+    background-color: aqua;
+}
+
+.dialogg{
+    background-color: aqua;
+}
+/* .homeHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.homeHeader h1{
+    font-family:'Courier New', Courier, monospace;
+     font-size: 1rem;
+    /* line-height: 24px;  */
+}
+/* .homeBtnDiv{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+
+
+.startHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.startHeader h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    line-height: 24px;
+    
+}
+.homeClass{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+   
+}
+
+  @media (max-width : 640px){
+    .homeImg{
+        display: none;
+    }   
+}  
+/* .homeImg{
+    height: 100vh;
+}
+.homeImg img{
+    height: 100vh;
+    width: 100vw;
+} */
+ 
+.playGameOuter{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    /* justify-content: center; */
+}
+.playGameLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    /* align-items: center; */
+}
+.playGameLeftDesc{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+.playGameRight{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.letterBtn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
